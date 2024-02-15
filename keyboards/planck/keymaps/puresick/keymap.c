@@ -149,8 +149,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 /* ), */
 
 [_RAISE] = LAYOUT_planck_1x2uC(
-    KC_TILD, _______, _______, _______, _______, _______, _______, KC_LBRC, KC_RBRC, KC_LPRN, KC_RPRN, _______,
-    _______, _______, _______, _______, _______, _______, _______, KC_LCBR, KC_RCBR, _______, _______, KC_BSLS,
+    KC_TILD, KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,   KC_F6,   KC_LBRC, KC_RBRC, KC_LPRN, KC_RPRN, _______,
+    _______, KC_F7,   KC_F8,   KC_F9,   KC_F10,  KC_F11,  KC_F12,  KC_LCBR, KC_RCBR, _______, _______, KC_BSLS,
     _______, _______, _______, _______, _______, _______, _______, KC_COLN, _______, _______, _______, _______,
     _______, _______, _______, _______, _______, _______, KC_TRNS, _______, _______, _______, _______
 ),
