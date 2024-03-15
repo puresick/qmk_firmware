@@ -88,7 +88,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 ),
 
 [_LOWER] = LAYOUT_planck_1x2uC(
-    KC_TAB,  KC_LT,   KC_GT,   KC_EQL,  _______, _______, _______, KC_UNDS,    KC_PIPE,    _______, _______, _______,
+    KC_TAB,  KC_LT,   KC_GT,   KC_EQL,  _______, _______, _______, KC_UNDS,    KC_PIPE,    _______, _______, KC_DELETE,
     _______, RALT(KC_Q), RALT(KC_Y), RALT(KC_P), RALT(KC_S), _______, _______, KC_MINS, KC_PLUS, _______, _______, _______,
     _______, _______, _______, KC_QUOT, KC_DQUO, _______, _______, _______, _______, _______, _______, _______,
     _______, _______, _______, _______, KC_TRNS, _______, _______, KC_END,  KC_PGDN, KC_PGUP, KC_HOME
